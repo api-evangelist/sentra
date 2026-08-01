@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.sentra.io/
+url: https://trust.sentra.io/
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+- TX-RAMP Level 2
+- GDPR
+documents:
+- Security Whitepaper
+- SOC 2 Report
+- Data Processing Agreement
+- Cyber Insurance
+- BC/DR Policy
+- Change Management Policy
+- Incident Response Policy
+- AI Tools Policy
+subprocessors:
+- Amazon Web Services
+- Microsoft Azure
+- MongoDB
+- Datadog
+- WorkOS
+evidence:
+- source: https://trust.sentra.io/
+  keywords:
+  - soc 2 type 2
+  - iso/iec 27001:2022
+  - tx-ramp level 2
+  - trust center
+  - gdpr

@@ -1,8 +1,24 @@
 aid: sentra
 name: Sentra
-description: 'Sentra is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Sentra is a cloud-native data security platform (DSPM) that discovers, classifies,
+  and governs sensitive data at petabyte scale across cloud and SaaS environments, with a focus
+  on AI-readiness and preventing sensitive data exposure. The platform gives security teams
+  visibility into where data lives, reduces data sprawl, and monitors data access and posture.
+  Sentra was surfaced as a portfolio company of Bessemer Venture Partners. It operates a public
+  Trust Center but does not publish a public developer API, SDKs, or open documentation; its
+  product documentation is gated behind an authenticated application login.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.sentra.io/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/sentra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cybersecurity
+- Data Security
+- DSPM
+- Data Security Posture Management
+- Cloud Security
+- Data Classification
+- AI Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.sentra.io/
+- type: Pricing
+  url: https://www.sentra.io/pricing
+- type: Blog
+  url: https://www.sentra.io/blog
+- type: TrustCenter
+  url: https://trust.sentra.io/
+- type: Compliance
+  url: https://trust.sentra.io/
+- type: DomainSecurity
+  url: security/sentra-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
