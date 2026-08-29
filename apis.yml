@@ -7,6 +7,17 @@ description: 'Sentra is a cloud-native data security platform (DSPM) that discov
   Sentra was surfaced as a portfolio company of Bessemer Venture Partners. It operates a public
   Trust Center but does not publish a public developer API, SDKs, or open documentation; its
   product documentation is gated behind an authenticated application login.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
